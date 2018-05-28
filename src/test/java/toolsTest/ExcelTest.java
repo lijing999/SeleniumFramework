@@ -19,7 +19,7 @@ public class ExcelTest {
     @DataProvider(name="t")
     public Object[][] data(){
         ExcelTest excelTest=new ExcelTest();
-        return ExcelUnit.testData("E:\\interface.xlsx");
+        return ExcelUnit.testData("E:\\test.xlsx",0);
     }
 
     //@Test(dataProvider="t")
