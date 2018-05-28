@@ -1,5 +1,8 @@
 package tools;
 
+import com.drivers.SeleniumDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import java.util.regex.Pattern;
@@ -8,6 +11,7 @@ import java.util.regex.Pattern;
  * Created by lijing on 2018/5/25.
  */
 public class MyAssert extends Assert {
+
 
     //以某字符串开头
     public static void assertStartWith(String content,String prefix){
@@ -45,4 +49,17 @@ public class MyAssert extends Assert {
             System.out.println("匹配校验失败！");
         }
     }
+
+    // 如果可以找到某个页面元素，则断言成功
+   public static boolean assertElementExist (By Locator ) {
+
+        try {
+            SeleniumDriver.driver.findElement(Locator);
+            return true;
+        }catch (org.openqa.selenium.NoSuchElementException ex){
+            return false;
+        }
+    }
+
+
 }
