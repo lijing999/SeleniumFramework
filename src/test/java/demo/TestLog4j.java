@@ -1,6 +1,5 @@
-package log4jTest;
+package demo;
 
-import log4j.LoggerController;
 import org.testng.annotations.Test;
 
 /**

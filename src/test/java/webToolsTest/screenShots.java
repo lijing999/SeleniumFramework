@@ -1,18 +1,12 @@
-package actions;
+package webToolsTest;
 
-import com.drivers.SeleniumDriver;
-import org.apache.commons.io.FileUtils;
-import org.apache.poi.ss.usermodel.DataFormat;
-import org.apache.poi.ss.usermodel.DateUtil;
+import webTools.SeleniumDriver;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.Augmenter;
-import tools.MyFile;
-import tools.DateFormat;
 
 import java.io.File;
-import java.io.IOException;
 
 /**
  * Created by lijing on 2018/5/25.

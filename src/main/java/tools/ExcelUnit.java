@@ -18,13 +18,13 @@ public class ExcelUnit {
      * 读取某个excel文件数据，并放入Map中返回
      * @return Object
      */
-    public static Object[][] testData(String filepath,int k){
+    public static Object[][] testData(String filepath, String sheetname){
         //存储excel第一列每个单元格的值，作为key值
         ArrayList<String> arrayKey=new ArrayList<String>();
         //获取excel文件
         Workbook workbook= ExcelUnit.getWorkbook(filepath);
-        //Sheet sheet=workbook.getSheet(sheetname);
-        Sheet sheet=workbook.getSheetAt(k);
+        int sheetId=workbook.getSheetIndex(sheetname);
+        Sheet sheet=workbook.getSheetAt(sheetId);
         //获取总行数
         int rowTotalNum=sheet.getLastRowNum()+1;
         //总列数

@@ -1,12 +1,9 @@
-package log4j;
+package demo;
 
-import org.apache.log4j.Level;
 import org.apache.log4j.PropertyConfigurator;
 
-import javax.swing.plaf.InsetsUIResource;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
 import java.util.logging.Logger;
 

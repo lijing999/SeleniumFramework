@@ -1,7 +1,7 @@
-package com.drivers;
+package webToolsTest;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+import webTools.SeleniumDriver;
 
 /**
  * Created by lijing on 2018/5/23.

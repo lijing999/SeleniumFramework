@@ -1,7 +1,7 @@
-package WebAction;
+package webTools;
 
-import find.WebElementUtil;
-import find.WebElementUtils;
+import webTools.WebElementUtil;
+import webTools.WebElementUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,6 +12,7 @@ import java.util.List;
 
 /**
  * Created by lijing on 2018/5/24.
+ * 页面元素操作方法 封装
  */
 public class WebAction {
     //打开网站

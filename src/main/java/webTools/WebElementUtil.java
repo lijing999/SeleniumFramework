@@ -1,14 +1,14 @@
-package find;
+package webTools;
 
-import com.drivers.SeleniumDriver;
+import webTools.SeleniumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Created by lijing on 2018/5/23.
+ * 查找单个页面元素
  */
 public class WebElementUtil extends SeleniumDriver{
 

@@ -19,10 +19,10 @@ public class ExcelTest {
     @DataProvider(name="t")
     public Object[][] data(){
         ExcelTest excelTest=new ExcelTest();
-        return ExcelUnit.testData("E:\\test.xlsx",0);
+        return ExcelUnit.testData("E:\\test.xlsx","ssodata");
     }
 
-    //@Test(dataProvider="t")
+
     @Test(dataProvider = "t")
     public void testCase(HashMap<String,String> data){
         String ClientId=data.get("client_id");

@@ -1,7 +1,6 @@
 package tools;
 
-import com.google.common.annotations.VisibleForTesting;
-import log4j.LoggerController;
+import demo.LoggerController;
 
 import java.util.Random;
 

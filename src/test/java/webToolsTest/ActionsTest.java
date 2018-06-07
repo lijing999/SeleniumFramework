@@ -1,12 +1,10 @@
-package actions;
+package webToolsTest;
 
 
-import WebAction.WebAction;
-import com.drivers.SeleniumDriver;
+import webTools.WebAction;
+import webTools.SeleniumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;

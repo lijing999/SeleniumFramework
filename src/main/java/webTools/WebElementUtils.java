@@ -1,6 +1,6 @@
-package find;
+package webTools;
 
-import com.drivers.SeleniumDriver;
+import webTools.SeleniumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,6 +10,7 @@ import java.util.List;
 
 /**
  * Created by lijing on 2018/5/24.
+ * 查找一组页面元素
  */
 public class WebElementUtils extends SeleniumDriver{
     public static List<WebElement> findElements(final By by){

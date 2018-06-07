@@ -1,6 +1,5 @@
-package com.drivers;
+package webTools;
 
-import log4j.LoggerController;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -8,7 +7,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 /**
  * Created by lijing on 2018/5/23.
- * 打开浏览器封装
+ * 浏览器操作封装：打开、关闭 不同类型浏览器
  */
 public class SeleniumDriver {
 
